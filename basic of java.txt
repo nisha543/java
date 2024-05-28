@@ -1,0 +1,54 @@
+five friend name
+
+public class Main{
+   public static void main(String[] args){
+      System.out.print("Neha");
+       System.out.print("Baibhavi");
+     System.out.print("Anita");
+    System.out.print("Nisha");
+     System.out.print("Shubham");
+   }
+}
+-----------------------------------------------------
+
+five country name
+public class Main{
+   public static void main(String[] args){
+      System.out.println("India");
+       System.out.println("Africa");
+     System.out.println("Austrelia");
+    System.out.println("America");
+     System.out.println("London");
+   }
+}
+
+five food name
+public class Main{
+   public static void main(String[] args){
+      System.out.println("pizza");
+       System.out.println("burger");
+     System.out.println("sandwich");
+    System.out.println("momoz");
+     System.out.println("icecream");
+   }
+}
+----------------------------------------------------
+public class Main{
+   public static void main(String[] args){
+      System.out.println("mumbai");
+       System.out.println("kolkata");
+     System.out.println("delhi");
+    System.out.println("hyderabad");
+     System.out.println("chenaai");
+   }
+}
+-----------------------------------------------------
+public class Main{
+   public static void main(String[] args){
+      System.out.println("apple");
+       System.out.println("mango");
+     System.out.println("banana");
+    System.out.println("papaya");
+     System.out.println("pear");
+   }
+}
