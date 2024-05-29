@@ -1,0 +1,171 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter the income:");
+      int a = sc.nextInt();
+      if(a==10000){
+          System.out.println("no tax");
+      }
+      else if(a==10001 && a==30000){
+          System.out.println("10% tax");
+      }
+      else if(a==30001 && a==50000){
+          System.out.println("20% tax");
+      }
+      else if(a>=50000){
+          System.out.println("30% tax");
+      }
+      else{
+          System.out.println("high tax");
+      }
+    }
+}
+----------------------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter the body mass index:");
+      float a = sc.nextFloat();
+      if(a<=18.5){
+          System.out.println("underweight");
+      }
+      else if(a>=18.5 && a<=24.5){
+          System.out.println("normal weight");
+      }
+      else if(a<=24.5 && a>=29.5){
+          System.out.println("overweight");
+      }
+      else if(a<=29.9 && a>=35.5){
+          System.out.println("obesity");
+      }
+        else{
+            System.out.println("fat");
+        }
+    }
+}
+---------------------------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter the year:");
+      int a = sc.nextInt();
+      if(a%4==0|| a%400==0|| a%100==0){
+          System.out.println("this is leap year");
+      }
+      else {
+          System.out.println("tis is not leap year");
+      }
+    }
+}
+---------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+       System.out.println("enter the time");
+       int t = sc.nextInt();
+       if(t==1 || t==12){
+           System.out.println("good morning");
+          
+       }
+       else if(t==13 || t==16){
+           System.out.println("good afternoon");
+       }
+       else if(t==17 || t==24){
+           System.out.println("good evening");
+       }
+       else{
+           System.out.println("good night");
+       }
+    }
+}
+-----------------------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+       System.out.println("enter the number");
+      int a = sc.nextInt();
+      if(a==1){
+          System.out.println("food-pizza price-200/-");
+      }
+      else if(a==2){
+          System.out.println("food-garlic bread price-150/-");
+      }
+      else if(a==3){
+          System.out.println("food-momoz price-100/-");
+      }
+      else{
+          System.out.println("anything for eating");
+      }
+    }
+}
+-----------------------------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+       System.out.println("enter the first number");
+      int num1 = sc.nextInt();
+      System.out.println("enter the second number");
+      int num2 = sc.nextInt();
+      if(num1>num2){
+          System.out.println("num1 is greater than num2");
+      }
+      else{
+          System.out.println("num2 is greater then num1");
+      }
+    }
+}
+-------------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+      System.out.println("enter the age:");
+      int age = sc.nextInt();
+      if(age<=12){
+          System.out.println("50% discount");
+      }
+      else if(age>=65){
+          System.out.println("30% discount");
+      }
+      else{
+          System.out.println("no discount");
+      }
+    }
+}
+---------------------------------------
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+      System.out.println("enter the marks:");
+      int marks = sc.nextInt();
+      if(marks<=99 && marks>=90){
+          System.out.println("grade-A");
+      }
+      else if(marks<=90 && marks>=80){
+          System.out.println("grade-B");
+      }
+      else if(marks<=80 && marks>=70){
+          System.out.println("grade-C");
+      }
+      else if(marks<=70 && marks>=60){
+          System.out.println("grade-D");
+      }
+      else if(marks<=60 && marks>=50){
+          System.out.println("grade-E");
+      }
+      else if(marks<=50 && marks>=40){
+          System.out.println("grade-F");
+      }
+      else{
+          System.out.println("error message");
+      }
+    }
+}
+------------------------------------------------------
