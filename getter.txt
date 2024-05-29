@@ -1,0 +1,674 @@
+1)two number addition through getter and setter method
+import java.util.*;
+class A{
+    private int a;
+    private int b;
+    void setA(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
+    int getA(){
+        return a;
+    }
+    int getA1(){
+        return b;
+    }
+    void add(){
+        int c = a+b;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  first number");
+        int a = sc.nextInt();
+        System.out.println("enter the  second number");
+        int b = sc.nextInt();
+        A p = new A();
+        p.setA(a,b);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        p.add();
+    }
+}
+------------------------------------------------------
+2)two number substraction through getter and setter method 
+import java.util.*;
+class A{
+    private int a;
+    private int b;
+    void setA(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
+    int getA(){
+        return a;
+    }
+    int getA1(){
+        return b;
+    }
+    void sub(){
+        int c = a-b;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  first number");
+        int a = sc.nextInt();
+        System.out.println("enter the  second number");
+        int b = sc.nextInt();
+        A p = new A();
+        p.setA(a,b);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        p.sub();
+    }
+}
+---------------------------------------------------------------
+3)two number multiplication through getter and setter method
+import java.util.*;
+class A{
+    private int a;
+    private int b;
+    void setA(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
+    int getA(){
+        return a;
+    }
+    int getA1(){
+        return b;
+    }
+    void multi(){
+        int c = a*b;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  first number");
+        int a = sc.nextInt();
+        System.out.println("enter the  second number");
+        int b = sc.nextInt();
+        A p = new A();
+        p.setA(a,b);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        p.multi();
+    }
+}
+------------------------------------------------------------------------
+4)two number division through getter and setter method
+import java.util.*;
+class A{
+    private int a;
+    private int b;
+    void setA(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
+    int getA(){
+        return a;
+    }
+    int getA1(){
+        return b;
+    }
+    void div(){
+        int c = a/b;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  first number");
+        int a = sc.nextInt();
+        System.out.println("enter the  second number");
+        int b = sc.nextInt();
+        A p = new A();
+        p.setA(a,b);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        p.div();
+    }
+}
+--------------------------------------------------------------------------------------------------------------------
+5)two number modular through getter and setter method 
+import java.util.*;
+class A{
+    private int a;
+    private int b;
+    void setA(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
+    int getA(){
+        return a;
+    }
+    int getA1(){
+        return b;
+    }
+    void mod(){
+        int c = a%b;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  first number");
+        int a = sc.nextInt();
+        System.out.println("enter the  second number");
+        int b = sc.nextInt();
+        A p = new A();
+        p.setA(a,b);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        p.mod();
+    }
+}
+----------------------------------------------------------------------------------------------
+6)four  number addition through getter and setter method
+import java.util.*;
+class A{
+    private int a;
+    private int b;
+     private int d;
+      private int e;
+    void setA(int a, int b, int d, int e){
+        this.a = a;
+        this.b = b;
+        this.d = d;
+        this.e = e;
+    }
+    int getA(){
+        return a;
+    }
+    int getA1(){
+        return b;
+    }
+    int getA2(){
+        return d;
+    }
+    int getA3(){
+        return e;
+    }
+    void add(){
+        int c = a+b+d+e;
+        System.out.println(c);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  first number");
+        int a = sc.nextInt();
+        System.out.println("enter the  second number");
+        int b = sc.nextInt();
+         System.out.println("enter the  second number");
+        int d = sc.nextInt();
+         System.out.println("enter the  second number");
+        int e = sc.nextInt();
+        A p = new A();
+        p.setA(a,b,d,e);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+        p.add();
+    }
+}
+----------------------------------------------------------------------------------
+import java.util.*;
+class Student{
+    private String name;
+    private String fname;
+     private String mname;
+      private int sclass;
+      private int year;
+      private String address;
+      private int number;
+      private String bloodgroup;
+    void setA(String name,String fname,String mname,int sclass,int year,String address,int number,String bloodgroup){
+        this.name = name;
+        this.fname = fname;
+        this.mname = mname;
+        this.sclass = sclass;
+         this.year = year;
+          this.address = address;
+           this.number = number;
+            this.bloodgroup = bloodgroup ;
+    }
+    
+   
+    String getA(){
+        return name;
+    }
+    String getA1(){
+        return fname;
+    }
+    String getA2(){
+        return mname;
+    }
+    int getA3(){
+        return sclass;
+    }
+    int getA4(){
+        return year;
+    }
+     String getA5(){
+        return address;
+    }
+     int getA6(){
+        return number;
+    }
+     String getA7(){
+        return bloodgroup;
+    }
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the name");
+        String name = sc.nextLine();
+        System.out.println("enter the  fname");
+        String fname = sc.nextLine();
+         System.out.println("enter the  mname");
+         String mname = sc.nextLine();
+         System.out.println("enter the  sclass");
+        int sclass = sc.nextInt();
+         System.out.println("enter the  year");
+        int year = sc.nextInt();
+         System.out.println("enter the  address");
+        String address = sc.nextLine();
+         System.out.println("enter the  number");
+        int number = sc.nextInt();
+         System.out.println("enter the  bloodgroup");
+        String bloodgroup = sc.nextLine();
+        Student p = new Student();
+        p.setA(name,fname,mname,sclass,year,address,number,bloodgroup);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+        System.out.println(p.getA4());
+        System.out.println(p.getA5());
+        System.out.println(p.getA6());
+        System.out.println(p.getA7());
+        
+    }
+}
+-------------------------------------------------------------------------------------------------
+import java.util.*;
+class Employe{
+    private String empname;
+    private String empfname;
+     private String empmname;
+      private int id;
+      private float salary;
+      private String company;
+      
+      
+    void setA(String empname,String empfname,String empmname,int id,float salary,String company){
+        this.empname = empname;
+        this.empfname = empfname;
+        this.empmname = empmname;
+        this.id = id;
+         this.salary = salary;
+          this.company = company;
+           
+    }
+    
+   
+    String getA(){
+        return empname;
+    }
+    String getA1(){
+        return empfname;
+    }
+    String getA2(){
+        return empmname;
+    }
+    int getA3(){
+        return id;
+    }
+    float getA4(){
+        return salary;
+    }
+     String getA5(){
+        return company;
+    }
+    
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the empname");
+        String empname = sc.nextLine();
+        System.out.println("enter the  empfname");
+        String empfname = sc.nextLine();
+         System.out.println("enter the  empmname");
+         String empmname = sc.nextLine();
+         System.out.println("enter the  id");
+        int id = sc.nextInt();
+        
+         System.out.println("enter the  salary");
+        float salary = sc.nextFloat();
+         System.out.println("enter the  company");
+        String company = sc.nextLine();
+         Employe p = new Employe();
+        p.setA(empname,empfname,empmname,id,salary,company);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+        System.out.println(p.getA4());
+        System.out.println(p.getA5());
+      
+       
+        
+    }
+}
+--------------------------------------------------------------------------
+import java.util.*;
+class Mobile{
+    private String oppo;
+    private String realme;
+     private String oneplus;
+      private String apple;
+    
+      
+      
+    void setA(String oppo,String realme,String oneplus,String apple){
+        this.oppo = oppo;
+        this.realme = realme;
+        this.oneplus = oneplus;
+        this.apple = apple;
+        
+           
+    }
+    
+   
+    String getA(){
+        return oppo;
+    }
+    String getA1(){
+        return realme;
+    }
+    String getA2(){
+        return oneplus;
+    }
+    String getA3(){
+        return apple;
+    }
+   
+    
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the oppo model name");
+        String oppo = sc.nextLine();
+        System.out.println("enter the  realme model name");
+        String realme = sc.nextLine();
+         System.out.println("enter the  oneplus model name");
+         String oneplus = sc.nextLine();
+         System.out.println("enter the  apple model");
+        String apple = sc.nextLine();
+        Mobile p = new Mobile();
+     p.setA(oppo,realme,oneplus,apple);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+       
+      
+       
+        
+    }
+}
+--------------------------------------------------------------------------------------
+import java.util.*;
+class Amazon{
+    private String shirt;
+    private String jeans;
+     private String shoes;
+      private String watch;
+    
+      
+      
+    void setA(String shirt,String jeans,String shoes,String watch){
+        this.shirt = shirt;
+        this.jeans = jeans;
+        this.shoes = shoes;
+        this.watch = watch;
+        
+           
+    }
+    
+   
+    String getA(){
+        return shirt;
+    }
+    String getA1(){
+        return jeans;
+    }
+    String getA2(){
+        return shoes;
+    }
+    String getA3(){
+        return watch;
+    }
+   
+    
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the shirt type");
+        String shirt = sc.nextLine();
+        System.out.println("enter the  jeans type");
+        String jeans = sc.nextLine();
+         System.out.println("enter the  shoes company");
+         String shoes = sc.nextLine();
+         System.out.println("enter the  watch company");
+        String watch = sc.nextLine();
+        Amazon p = new Amazon();
+     p.setA(shirt,jeans,shoes,watch);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+       
+      
+       
+        
+    }
+}
+---------------------------------------------------------------------------
+import java.util.*;
+class Flipcart{
+    private String agarbati;
+    private String mombati;
+     private String phoolbati;
+      private String chawal;
+    
+      
+      
+    void setA(String agarbati,String mombati,String phoolbati,String chawal){
+        this.agarbati = agarbati;
+        this.mombati = mombati;
+        this.phoolbati = phoolbati;
+        this.chawal = chawal;
+        
+           
+    }
+    
+   
+    String getA(){
+        return agarbati;
+    }
+    String getA1(){
+        return mombati;
+    }
+    String getA2(){
+        return phoolbati;
+    }
+    String getA3(){
+        return chawal;
+    }
+   
+    
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the agarbati name");
+        String agarbati = sc.nextLine();
+        System.out.println("enter the  mombati name");
+        String mombati = sc.nextLine();
+         System.out.println("enter the  phoolbati name");
+         String phoolbati = sc.nextLine();
+         System.out.println("enter the  chawal type");
+        String chawal = sc.nextLine();
+        Flipcart p = new Flipcart();
+     p.setA(agarbati,mombati,phoolbati,chawal);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+       
+      
+       
+        
+    }
+}
+--------------------------------------------------------------------
+import java.util.*;
+class Jiomart{
+    private String aata;
+    private String dal;
+     private String rice;
+      private String oil;
+    
+      
+      
+    void setA(String aata,String dal,String rice,String oil){
+        this.aata = aata;
+        this.dal = dal;
+        this.rice = rice;
+        this.oil = oil;
+        
+           
+    }
+    
+   
+    String getA(){
+        return aata;
+    }
+    String getA1(){
+        return dal;
+    }
+    String getA2(){
+        return rice;
+    }
+    String getA3(){
+        return oil;
+    }
+   
+    
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the aata company");
+        String aata = sc.nextLine();
+        System.out.println("enter the  dal type");
+        String dal = sc.nextLine();
+         System.out.println("enter the  rice type");
+         String rice = sc.nextLine();
+         System.out.println("enter the  oil company");
+        String oil = sc.nextLine();
+        Jiomart p = new Jiomart();
+         p.setA(aata,dal,rice,oil);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+       
+      
+       
+        
+    }
+}
+------------------------------------------------------------------------------------------------------------
+import java.util.*;
+class Blinkit{
+    private String choclate;
+    private String softdrink;
+     private String icecream;
+      private String chips;
+    
+      
+      
+    void setA(String choclate,String softdrink,String icecream,String chips){
+        this.choclate = choclate;
+        this.softdrink = softdrink;
+        this.icecream = icecream;
+        this.chips = chips;
+        
+           
+    }
+    
+   
+    String getA(){
+        return choclate;
+    }
+    String getA1(){
+        return softdrink;
+    }
+    String getA2(){
+        return icecream;
+    }
+    String getA3(){
+        return chips;
+    }
+   
+    
+    
+}
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the choclate name");
+        String choclate = sc.nextLine();
+        System.out.println("enter the  softdrink name");
+        String softdrink = sc.nextLine();
+         System.out.println("enter the  icecream name");
+         String icecream = sc.nextLine();
+         System.out.println("enter the  chips name");
+        String chips = sc.nextLine();
+        Blinkit p = new Blinkit();
+         p.setA(choclate,softdrink,icecream,chips);
+        System.out.println(p.getA());
+        System.out.println(p.getA1());
+        System.out.println(p.getA2());
+        System.out.println(p.getA3());
+       
+      
+       
+        
+    }
+}
+-------------------------------------------------------------------------------------------------------------
