@@ -1,0 +1,509 @@
+for double:-
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of double");
+        double a = sc.nextDouble();
+        System.out.println("the double value of a is"+a);
+    }
+}
+
+for Short:-
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of short:");
+        Short a = sc.nextShort();
+        System.out.println("the Short value of a is" +a);
+    }
+}
+
+
+for byte:-
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of byte:");
+        byte a = sc.nextByte();
+        System.out.println("the byte value of a is" +a);
+    }
+}
+
+
+for long:-
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of long:");
+        long a = sc.nextLong();
+        System.out.println("the long value of a is" +a);
+    }
+}
+
+
+for boolean:-	
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the boolean value:");
+        boolean a = sc.nextBoolean();
+        System.out.println("the boolean value of a is" +a);
+    }
+}
+        
+34-5
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+        int c = a-b;
+        System.out.println("the suntraction is:" +c);
+    }
+}  
+
+23*5	
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+        int c = a-b;
+        System.out.println("the suntraction is:" +c);
+    }
+} 
+
+56%2
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+        int c = a%b;
+        System.out.println("the division is:" +c);
+    }
+}   
+
+1+6+8+9:-	
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+         System.out.println("enter the value of c:");
+        int c = sc.nextInt();
+        System.out.println("enter the value of d:");
+        int d = sc.nextInt();
+        int e = a+b+c+d;
+        System.out.println("the Addition is:" +e);
+    }
+}
+
+
+34+67+3+89+12:-
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+         System.out.println("enter the value of c:");
+        int c = sc.nextInt();
+        System.out.println("enter the value of d:");
+        int d = sc.nextInt();
+         System.out.println("enter the value of e:");
+        int e = sc.nextInt();
+        int f = a+b+c+d+e;
+        System.out.println("the Addition is:" +f);
+    }
+}
+
+34+(4*4)-8:-
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+         System.out.println("enter the value of c:");
+        int c = sc.nextInt();
+        System.out.println("enter the value of d:");
+        int d = sc.nextInt();
+         System.out.println("enter the value of e:");
+        int e = sc.nextInt();
+        int f = a+b+c+d+e;
+        System.out.println("the Addition is:" +f);
+    }
+}
+
+3.1*6.7-(2.2*2.2)-5.4:-	
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        float a = sc.nextFloat();
+        System.out.println("enter the value of b:");
+        float b = sc.nextFloat();
+         System.out.println("enter the value of c:");
+        float c = sc.nextFloat();
+        System.out.println("enter the value of d:");
+        float d = sc.nextFloat();
+          System.out.println("enter the value of e:");
+        float e = sc.nextFloat();
+        float f = a*b-(b*c)-d;
+        System.out.println("the Answer is:" +f);
+    }
+}
+
+
+23*2-9+34:-
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+         System.out.println("enter the value of c:");
+        int c = sc.nextInt();
+        System.out.println("enter the value of d:");
+        int d = sc.nextInt();
+       int e = a*b-c+d
+        System.out.println("the Answer is:" +e);
+    }
+}
+
+
+4.5*7+(2.3-2)+34.6	
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        float a = sc.nextFloat();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+         System.out.println("enter the value of c:");
+        float c = sc.nextFloat();
+        System.out.println("enter the value of d:");
+        int d = sc.nextInt();
+        System.out.println("enter the value of e:");
+        flaot e = sc.nextFlaot();
+       int f = a*b+(c-d)+e;
+        System.out.println("the Answer is:" +f);
+    }
+}
+ 
+voter id:-       
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the age:");
+        int age = sc.nextInt();
+        if(age>=18){
+            System.out.println("the person is eligible");
+        }
+        else{
+            System.out.println("the person is not eligible");
+        }
+        
+    }
+}  
+
+one number maximum:-	
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the age:");
+        int age = sc.nextInt();
+        if(age>=18){
+            System.out.println("the person is eligible");
+        }
+        else{
+            System.out.println("the person is not eligible");
+        }
+        
+    }
+} 
+
+two number maximum:-
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of a:");
+        int a = sc.nextInt();
+         System.out.println("Enter the value of b:");
+        int b = sc.nextInt();
+        if(a>b){
+            System.out.println("a is max");
+        }
+        else{
+            System.out.println("b is max");
+        }
+        
+    }
+}
+             
+  three number max a b c       
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of a:");
+        int a = sc.nextInt();
+         System.out.println("Enter the value of b:");
+        int b = sc.nextInt();
+        System.out.println("Enter the value of c:");
+        int c = sc.nextInt();
+        if(a>b){
+            System.out.println("a is max");
+        }
+        else(a>c){
+            System.out.println("b is max");
+        }
+        
+    }
+}
+
+Five no. maximum
+import java.util.Scanner;
+public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+     System.out.println("Enter the value of a:");
+    int a=sc.nextInt();
+   System.out.println("Enter the value of b:");
+    int b=sc.nextInt();
+   System.out.println("Enter the value of c:");
+    int c=sc.nextInt();
+  System.out.println("Enter the value of d:");
+    int d=sc.nextInt();
+   System.out.println("Enter the value of e:");
+    int e=sc.nextInt();
+
+    if ((a >= b) && (a >= c) && (a >= d) && (a >= e)) { 
+        System.out.println (a);
+    } else if ((b >= c) && (b >= d) && (b >= e)) {      
+        System.out.println ( b);
+    } else if ((c >= d) && (c >= e)) {                 
+        System.out.println ( c);
+    } else if (d >= e) {                              
+        System.out.println ( d);
+    } else {                                            
+        System.out.println (e);
+
+
+negative number and positive number:-
+import java.util.Scanner;
+ public class Main {
+  public static void main(String[] args) {
+    
+    Scanner sc=new Scanner(System.in);
+     System.out.println("Enter the value of a:");
+    int a=sc.nextInt();
+
+    
+    if (a > 0) {
+      System.out.println("The number is positive.");
+    }
+    
+    
+    else {
+      System.out.println("The number is not positive.");
+    }
+
+    System.out.println("Statement outside if...else block");
+  }
+}
+
+vowel and constant
+import java.util.Scanner;
+
+public class VowelConsonantIdentifier {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a vowel: ");
+        char ch = input.charAt(i);
+       if (isVowel(ch)) {
+                System.out.println(ch + " is a vowel.");
+            } else if (Character.isLetter(ch)) {
+                System.out.println(ch + " is a consonant.");
+            } else {
+                System.out.println(ch + " is not a letter.");
+            }
+        }
+      }
+}
+
+
+divisible of 5 and 11
+
+import java.util.Scanner;
+
+public class First {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int number = scanner.nextInt();
+
+        if (isDivisibleBy5And11(number)) {
+            System.out.println(number + " is divisible by both 5 and 11.");
+        } else {
+            System.out.println(number + " is not divisible by both 5 and 11.");
+        }
+
+       
+    }
+
+ }
+
+
+ swap number using temp variable
+import java.util.Scanner;
+
+public class SwapThreeNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter three numbers separated by space: ");
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+
+        // Swapping using a temporary variable
+        int temp;
+
+        temp = num1;
+        num1 = num2;
+        num2 = num3;
+        num3 = temp;
+
+        System.out.println("After swapping:");
+        System.out.println("Number 1: " + num1);
+        System.out.println("Number 2: " + num2);
+        System.out.println("Number 3: " + num3);
+
+        scanner.close();
+    }
+}
+
+---------------------------------
+five friend name
+
+public class Main{
+   public static void main(String[] args){
+      System.out.print("Neha");
+       System.out.print("Baibhavi");
+     System.out.print("Anita");
+    System.out.print("Nisha");
+     System.out.print("Shubham");
+   }
+}
+-----------------------------------------------------
+
+five country name
+public class Main{
+   public static void main(String[] args){
+      System.out.println("India");
+       System.out.println("Africa");
+     System.out.println("Austrelia");
+    System.out.println("America");
+     System.out.println("London");
+   }
+}
+-----------------------------------------------------
+
+five food name
+public class Main{
+   public static void main(String[] args){
+      System.out.println("pizza");
+       System.out.println("burger");
+     System.out.println("sandwich");
+    System.out.println("momoz");
+     System.out.println("icecream");
+   }
+}
+----------------------------------------------------
+public class Main{
+   public static void main(String[] args){
+      System.out.println("mumbai");
+       System.out.println("kolkata");
+     System.out.println("delhi");
+    System.out.println("hyderabad");
+     System.out.println("chenaai");
+   }
+}
+-----------------------------------------------------
+public class Main{
+   public static void main(String[] args){
+      System.out.println("apple");
+       System.out.println("mango");
+     System.out.println("banana");
+    System.out.println("papaya");
+     System.out.println("pear");
+   }
+}
+---------------------------------------
+
+what is java ?
+>Java is a programming language and a platform. Java is a high level, robust, object-oriented 
+and secure programming language
+------------------------------------------------
+what is jdk and jre and jvm ?
+JRE is an acronym for Java Runtime Environment. It is also written as Java RTE. 
+The Java Runtime Environment is a set of software tools which are used for developing Java applications. 
+It is used to provide the runtime environment.
+
+JVM (Java Virtual Machine) is an abstract machine. 
+It is called a virtual machine because it doesn't physically exist. 
+It is a specification that provides a runtime environment in which Java bytecode can be executed.
+
+-------------------------------------------------------------
+
+how to compile the code and with code explanation?  
+ 
